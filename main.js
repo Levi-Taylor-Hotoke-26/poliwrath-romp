@@ -82,7 +82,7 @@ function playCelebrationSound() {
   })
 }
 
-const shinyCheerAudio = new Audio('./sound-effects/mykelu-crowd-cheering-383111.mp3')
+const shinyCheerAudio = new Audio('./mykelu-crowd-cheering-383111.mp3')
 shinyCheerAudio.preload = 'auto'
 
 function playShinyCheerSound() {
