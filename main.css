@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Pokemon';
+  src: url('https://fonts.cdnfonts.com/s/17890/Pokemon Solid.woff')
+    format('woff');
+}
+
 body {
       min-height: 100vh;
       background-image: url('https://geekoutpost.com/wp-content/uploads/2019/10/61.jpg');
