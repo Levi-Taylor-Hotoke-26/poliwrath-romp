@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Poliwrath Romp!</title>
+  <meta charset="UTF-8" />
+  <link href="./main.css" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <h1>Poliwrath Romp!</h1>
+  <p>There's a 1 in 10 chance of catching a shiny one!
+    <br>
+    <img src="https://img.pokemondb.net/sprites/black-white/anim/normal/poliwrath.gif">
+    <img src="https://img.pokemondb.net/sprites/black-white/anim/shiny/poliwrath.gif">
+  </p>
+  <div style="text-align: center; margin: 1rem 0;">
+    <button
+      style="font-family: 'pokemon', sans-serif; letter-spacing: 2px; background: yellow; border: 3px solid darkblue; padding-top: 0%;"
+      id="start-game-btn" type="button">
+      Start Game
+    </button>
+    <h2>Try to find a wild Poliwrath!</h2>
+    <h3 id="move-counter" style="margin-top: 0.75rem; display: none;">Five moves left</h3>
+  </div>
+  <div>
+    <table id="poliwrath-whomp-table">
+      <tr>
+        <td>
+          <img class="ocean-image" src="../images/pokemon-ocean.png" alt="ocean">
+        </td>
+        <td>
+          <img class="ocean-image" src="../images/pokemon-ocean.png" alt="ocean">
+        </td>
+        <td>
+          <img class="ocean-image" src="../images/pokemon-ocean.png" alt="ocean">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img class="ocean-image" src="../images/pokemon-ocean.png" alt="ocean">
+        </td>
+        <td>
+          <img class="ocean-image" src="../images/pokemon-ocean.png" alt="ocean">
+        </td>
+        <td>
+          <img class="ocean-image" src="../images/pokemon-ocean.png" alt="ocean">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img class="ocean-image" src="../images/pokemon-ocean.png" alt="ocean">
+        </td>
+        <td>
+          <img class="ocean-image" src="../images/pokemon-ocean.png" alt="ocean">
+        </td>
+        <td>
+          <img class="ocean-image" src="../images/pokemon-ocean.png" alt="ocean">
+        </td>
+      </tr>
+    </table>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.4/dist/confetti.browser.min.js"></script>
+  <script type="module" src="../poliwrath-romp.js"></script>
+</body>
+
+</html>

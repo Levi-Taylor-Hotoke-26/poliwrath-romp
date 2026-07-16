@@ -1,0 +1,64 @@
+body {
+      min-height: 100vh;
+      background-image: url('https://geekoutpost.com/wp-content/uploads/2019/10/61.jpg');
+      background-size: cover;
+      background-repeat: repeat;
+      background-attachment: fixed;
+      color: #000000;
+      font-family: "pokemon", sans-serif;
+      letter-spacing: 2px;
+      text-align: center;
+      align-items: center;
+      padding: 0%;
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+      background: #F5E763;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 1%;
+      margin-bottom: 1%;
+      font-size: 14px;
+      border: 3px solid darkblue;
+    }
+
+    td {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      padding: 0%;
+      overflow: hidden;
+    }
+
+    td .ocean-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: 1;
+      padding: 0%;
+    }
+
+    td .poliwrath-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      z-index: 2;
+      pointer-events: none;
+      padding: 0%;
+    }
+
+    table {
+      justify-self: center;
+      border: none;
+      padding: 0%;
+      border-collapse: collapse;
+    }
