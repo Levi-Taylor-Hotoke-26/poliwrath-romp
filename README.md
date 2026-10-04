@@ -2,6 +2,8 @@
 
 Poliwrath Romp is a small browser game where you try to find a hidden Poliwrath on a 3x3 ocean grid before it escapes.
 
+<img width="1121" height="804" alt="image" src="https://github.com/user-attachments/assets/d233eeee-9c8a-475a-b616-ac534bcedbd3" />
+
 ## Gameplay
 
 - Click **Start Game** to begin a round.
